@@ -1,0 +1,11 @@
+# should i need to rotate the images
+# def rotateJPG_ndeg(n):
+#     for fname in images:
+#         if fname.endswith('.JPG'):
+#             img2=Image.open(fname).rotate(n, expand=True)
+#             img2.thumbnail((1000,1000), Image.ANTIALIAS)
+#             img2.save(fname, "JPEG")
+#
+#         cv2.imshow('new_rotated',cv2.imread(fname))
+#         cv2.waitKey(500)
+#      
